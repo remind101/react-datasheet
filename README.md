@@ -18,9 +18,9 @@ When pasting multiple cells into a spreadsheet after having selected a block of 
 
 ![Actual behavior](https://p194.p3.n0.cdn.getcloudapp.com/items/rRu0ymyz/Screen%20Recording%202020-11-19%20at%2009.18.06%20AM.gif?v=31eaecd03637676dbec78c97dd88c5e8)
 
-If you'd like to reproduce it yourself, you can navigate to the `docs` folder and run `yarn install`, then `yarn start`. This will open the examples page locally on your machine, and you'll be able to play around.
-
 ## Usage
+
+Examples are located in https://github.com/nadbm/react-datasheet/tree/master/docs/src/examples
 
 React-Datasheet generates a table with the cells. Double-clicking or typing edits the value and if changed, initiates an `onCellsChanged` callback.
 Pasting tabular data or deleting a range of cells also calls `onCellsChanged`.
